@@ -4,6 +4,8 @@ title: "Backup"
 
 # Backup
 
+ There are a few user friendly tools that can handle backing these files up, these tools are available in the Bazaar as flatpaks and are quick and easy to setup. 
+
 ## 3-2-1 Rule
 
 For backups the "golden rule" is the 3-2-1 rule:
@@ -16,7 +18,15 @@ This means there should be three copies of your data at any point, two copies sh
 
 ## User Files
 
-These files include photos (like of your family) and documents (such as tax forms), this would include things that would be very difficult if not impossible to recreate. There are a few user friendly tools that can handle backing these files up, these tools are available in the Bazaar as flatpaks and are quick and easy to setup.
+These files include photos (like of your family) and documents (such as tax forms), this would include things that would be very difficult if not impossible to recreate. Some common locations to backup include:
+
+- /home/*username*/Documents
+- /home/*username*/Music
+- /home/*username*/Pictures
+
+Another location is where user installed Flatpaks store their data:
+
+- /home/.var/app/*flatkak-name*
 
 ### Pika Backup
 
